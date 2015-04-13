@@ -124,6 +124,7 @@
 		
 		function validationPassed(){
 			$("#searchImageGrid").empty();
+			$('#loadMessage').html('<div class="ui active dimmer"><div class="ui text loader"></div></div><p><h2 align="center">Loading Photos . . .</h2></p>');
 			searchTerm = getFieldValue('search');
 			sortM = getFieldValue('sort');
 			count = 1;
